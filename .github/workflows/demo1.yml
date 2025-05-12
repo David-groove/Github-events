@@ -13,9 +13,8 @@ on:
       - main # main
       - "dev-*" # dev-new  dev-this-is
       - "feat/*" # feat/new feat/new/button
-      - dev
     paths:
-      - .github/workflows
+      - .github/workflows/*
 jobs:
   deploy:
     runs-on: ubuntu-latest
