@@ -7,11 +7,11 @@ on:
       - main # main
       - "dev-*" # dev-new  dev-this-is
       - "feat/*" # feat/new feat/new/button
-      - dev
   workflow_dispatch:
   push:
     branches:
       - main # main
+      - dev
       - "dev-*" # dev-new  dev-this-is
       - "feat/*" # feat/new feat/new/button
     paths:
